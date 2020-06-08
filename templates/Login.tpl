@@ -8,7 +8,7 @@
 	<div style="height:50px"></div>
 
 	<div class="row">
-	  <div class="col s12    orange lighten-1">
+	  <div class="col s12  orange lighten-1">
 		<h5 class="center-align">REGISTRO</h5>
 	  </div>
 	</div>
