@@ -1,19 +1,23 @@
 <?php
-	class Home 
-    {
+	
+	class Home
+	{
 		public function Inicio()
-        {
-			echo "en clase home y metodo inicio";
-        }
+		{
+			$smarty=new Smarty();
+
+			$smarty->display('master.tpl');
+		}
 
 		public function User()
-        {
+		{
 			$user=new Usuarios();
 			$user->BuscarUsuario();
 
-			$class2=Librerias();
+			$class2=new Librerias();
 			$class2->Libreria1();
-			$smarty =new Smarty();
-        }
-    }
+
+			$smarty=new Smarty();
+		}
+	}
 ?>

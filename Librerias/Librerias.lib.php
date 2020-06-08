@@ -1,9 +1,10 @@
 <?php
-	class Librerias
+	Class Librerias
 	{
 		public function Libreria1()
 		{
-			echo "<br> en libreria1";
+			echo "<br/> En libreria 1";
 		}
 	}
+
 ?>

@@ -3,7 +3,7 @@
 	{
 		public function BuscarUsuario()
 		{
-			echo"<br> buscar usuario";
+			echo "<br/>buscar usuario";
 		}
 	}
 ?>
